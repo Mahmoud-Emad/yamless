@@ -1,0 +1,10 @@
+backend:
+  requirements:
+    - django
+    - psycopg2-binary
+  port: 8000
+frontend:
+  requirements:
+    - vue
+    - axios
+  port: 8080
